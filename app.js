@@ -295,11 +295,3 @@ function seekUpdate(){
 
 loadTrack(trackIndex);
 
-
-async function start(){
-    const response = await fetch ('https://api.deezer.com/user/2529/playlists')
-    const data = await response.json()
-    console.log(data);
-}
-
-start();
